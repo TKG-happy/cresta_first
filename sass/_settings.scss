@@ -1,0 +1,23 @@
+@mixin contents {
+  color: #141414;
+  .container {
+    margin: 100px auto;
+    padding-bottom: 10px;
+    h2 {
+      font-size: 36px;
+      text-align: center;
+      letter-spacing: 1.8px;
+      margin-bottom: 75px;
+    }
+    h3 {
+      font-size: 20px;
+      letter-spacing: 3px;
+    }
+    p {
+      font-size: 14px;
+      padding-top: 34px;
+      padding-bottom: 40px;
+      letter-spacing: 0.7px;
+    }
+  }  
+}
